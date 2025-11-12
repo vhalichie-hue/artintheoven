@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arts in the Oven | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Arts in the Oven</div>
+        
+        </div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="product.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="location.html">Location</a>
+            <a href="login.html">Login</a>
+        </nav>
+        <button id="cart-btn" aria-label="Shopping Cart">🛒 <span id="cart-count">0</span></button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Freshly Baked Happiness, One Bite at a Time.</h1>
+            <p>Welcome to Arts in the Oven, where every treat is a work of art!</p>
+            <a href="product.html" class="primary-btn shop-now-btn">Shop Now</a>
+        </section>
+
+        <section class="intro-section">
+            <h2>Baked with Love</h2>
+            <p>Arts in the Oven is a home-based bakery passionate about crafting sweet creations made with love and care. Start exploring our menu today!</p>
+        </section>
+    </main>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">×</span>
+            <h2>Your Cart 🛒</h2>
+            <div id="cart-items"></div>
+            <div class="cart-summary">
+                <strong>Total: <span id="cart-total">₱0</span></strong>
+            </div>
+            <a href="location.html" id="purchase-btn" class="primary-btn">Proceed to Checkout</a>
+            <p id="empty-cart-message" class="empty-message" style="display: none;">Your oven is empty! Add some treats.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="product.html">Products</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p class="copyright-text">© 2025 Arts in the Oven | All Rights Reserved</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1AY97ByLye/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/arts_intheoven?igsh=OGxqeXY0aXNvNTF6" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www,tiktok.com/@artsintheoven4_r=1&_t=ZS-9194B473JpM" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
